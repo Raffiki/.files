@@ -1,0 +1,3 @@
+/*jslint browser:true, node:true, es5:true, forin:true, white:true, nomen:true */
+/*global jQuery, $, before, after, PLANZA, process, console, require*/
+/*vim: set ft=javascript*/
