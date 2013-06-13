@@ -1,0 +1,29 @@
+/*jshint laxbreak:true, asi:true, forin:true, noarg:true, noempty:true, eqeqeq:true, bitwise:true, strict:true, undef:true, unused:true, curly:false, browser:true, es5:true, node:true, indent:4, maxerr:50, globalstrict:true, newcap:true, laxcomma:true, trailing:true, camelcase:true, maxlen:90, indent:4 */
+//{
+//    "node": true                  // ignore globals that are set in Node.js
+//  , "browser": true               // ignore globals that are set in the browser
+//  , "jquery": true                // predefine jQuery's globals
+////  , "globalstrict": true          // allow global strict mode
+//  , "laxcomma": true              // allow comma first
+//  , "supernew": true              // allow new function and new Object;
+//  , "proto": true                 // allow __proto__ to be used
+//  , "eqeqeq": true                // force === instead of ==
+////  , "es5": true                   // allow EcmaScript 5 syntax
+//  , "boss": true                  // allow assignments in `if ()` statements
+//  , "noarg": true                 // disallow `arguments.callee`
+//  , "trailing": true              // disallow trailing whitespace
+//  , "maxlen": 90                  // allow up to 90 chars per line
+//  , "indent": 4                   // enforce 4 spaces indent
+//  , "camelcase" : true            // enforce camelCase
+//  , "predef": [                   // pre-defined globals that are use commonly
+//        "_"                       // -- underscore library
+//      , "$"                       // -- jQuery library
+//      , "logger"                  // -- global logger
+//      , "should"                  // -- should.js assertation library
+//      , "describe"                // -- BDD unit tests
+//      , "it"                      // -- BDD unit tests
+//      , "after"                   // -- BDD unit tests
+//      , "before"                  // -- BDD unit tests
+//      , "Backbone"                // -- backbone.js mvc library
+//    ]
+//}
