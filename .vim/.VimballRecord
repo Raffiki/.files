@@ -1,0 +1,1 @@
+rainbow_parenthsis-4.0.vba: call delete('/Users/rafmc/.vim/autoload/rainbow_parenthsis.vim')|call delete('/Users/rafmc/.vim/doc/rainbow_parenthsis.txt')|call delete('/Users/rafmc/.vim/plugin/rainbow_parenthsis.vim')|call delete('/Users/rafmc/.vim/rainbow_parenthsis_options.vim')
