@@ -1,0 +1,8 @@
+[user]
+	name = raffiki
+	email = raf.huys@gmail.com
+
+[alias]
+    co = checkout
+    br = branch
+    c = commit
