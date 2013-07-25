@@ -9,11 +9,13 @@ filetype plugin indent on
 :filetype plugin on
 
 " Omni completion
-"set ofu=syntaxcomplete#Complete
+set ofu=syntaxcomplete#Complete
+set omnifunc=syntaxcomplete#Complete
 "autocmd FileType python set omnifunc=pythoncomplete#Complete
 "autocmd FileType javascript set omnifunc=javascriptcomplete#CompleteJS
 "autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
 "autocmd FileType css set omnifunc=csscomplete#CompleteCSS
+set complete-=i
 
 "function! Tab_Or_Complete()
 "  if col('.')>1 && strpart( getline('.'), col('.')-2, 3 ) =~ '^\w'
@@ -28,12 +30,15 @@ filetype plugin indent on
 " --------------------------------------------------------- COLOR ----------
 set background=dark
 colorscheme solarized
-"let g:solarized_termcolors=256
+"let g:solarized_termcolors=16
+"let g:Powerline_theme='short'
+"let g:Powerline_colorscheme='solarized256_dark'
 
 " Don’t add empty newlines at the end of files
 set noeol
 
 " --------------------------------------------------------- STATUS BAR ----------
+set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 set laststatus=2
 set statusline=%F\ %m\ %{fugitive#statusline()}\ %y%=%l,%c\ %P
 
@@ -66,9 +71,6 @@ set shiftwidth=4
 map <F11> :!/usr/bin/ctags -R --exclude=node_modules --fields=+iaS --extra=+q .<CR>
 " map tagbartoggle
 nmap <F10> :TagbarToggle<CR>
-
-" map escape to double i
-inoremap ii <ESC>
 
 
 " ---------------------------------------------------------- Jslint
