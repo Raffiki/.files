@@ -1,0 +1,8 @@
+set ff=unix
+set mouse=a
+
+autocmd FileType javascript setlocal expandtab shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType go setlocal expandtab shiftwidth=4 tabstop=4 softtabstop=4
+
+"Go"
+au BufRead,BufNewFile *.go set filetype=go
